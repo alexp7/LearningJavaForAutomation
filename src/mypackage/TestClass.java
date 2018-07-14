@@ -11,7 +11,7 @@ public class TestClass {
         double varDouble = -1999.745254;
         char varChar = 'J';
         boolean varBoolean = true;
-        String str = "Hi all!!!";
+        String str = "Hi all!!!!";
 
         PrintAllVariables printAllVariables = new PrintAllVariables();
 
