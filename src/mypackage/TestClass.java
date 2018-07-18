@@ -1,9 +1,11 @@
 package mypackage;
 
+import java.util.InputMismatchException;
+
 public class TestClass {
     public static void main(String[] args) {
 
-        byte varByte  = 1;
+        /*byte varByte  = 1;
         short varShort  = -456;
         int varInt = 45678;
         long varLong = 1234567891;
@@ -24,5 +26,16 @@ public class TestClass {
         printAllVariables.PrintChar(varChar);
         printAllVariables.PrintBoolean(varBoolean);
         printAllVariables.PrintString(str);
+        */
+
+        // Exercise #2
+        Calculator calculator = new Calculator();
+        try {
+            calculator.calculations();
+        } catch (InputMismatchException e){
+            System.out.println("Only integer allowed!!!");
+        } catch (ArithmeticException e){
+            System.out.println("Can't divide by zero!!!");
+        }
     }
 }
