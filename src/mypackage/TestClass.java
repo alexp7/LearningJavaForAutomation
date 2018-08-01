@@ -5,7 +5,9 @@ import java.util.InputMismatchException;
 public class TestClass {
     public static void main(String[] args) {
 
-        /*byte varByte  = 1;
+        /*
+        // Exercise #1
+        byte varByte  = 1;
         short varShort  = -456;
         int varInt = 45678;
         long varLong = 1234567891;
@@ -26,7 +28,6 @@ public class TestClass {
         printAllVariables.PrintChar(varChar);
         printAllVariables.PrintBoolean(varBoolean);
         printAllVariables.PrintString(str);
-        */
 
         // Exercise #2
         Calculator calculator = new Calculator();
@@ -37,5 +38,27 @@ public class TestClass {
         } catch (ArithmeticException e){
             System.out.println("Can't divide by zero!!!");
         }
+        */
+
+        // Exercise #3
+        boolean a = true;
+        boolean b = true;
+        boolean c = true;
+        BooleanAndStatic.printBoolean(a,b,c);
+
+        System.out.println(BooleanAndStatic.var);
+        BooleanAndStatic.var = 20;
+
+        /*
+        BooleanAndStatic var1 = new BooleanAndStatic();
+        System.out.println("var1 = " + var1.var);
+
+        BooleanAndStatic var2 = new BooleanAndStatic();
+        System.out.println("var3 = " + var2.var);
+
+        BooleanAndStatic var3 = new BooleanAndStatic();
+        System.out.println("var3 = " + var3.var);
+        */
+
     }
 }
