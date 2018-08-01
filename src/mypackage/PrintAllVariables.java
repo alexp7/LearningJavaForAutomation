@@ -3,7 +3,6 @@ package mypackage;
 
 public class PrintAllVariables  {
 
-
     public void PrintByte (byte var) {
         System.out.println("Value of Byte is: " + var);
     }
@@ -36,7 +35,7 @@ public class PrintAllVariables  {
         System.out.println("Value of Boolean is: " + var);
     }
 
-    public void PrintString (String str) {
-        System.out.println("And the string is: " + str);
+    public void PrintString (String str) {System.out.println("And the string is: " + str);
+
     }
 }
