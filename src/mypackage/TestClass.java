@@ -41,13 +41,13 @@ public class TestClass {
         */
 
         // Exercise #3
-        boolean a = true;
+        /*boolean a = true;
         boolean b = true;
         boolean c = true;
-        BooleanAndStatic.printBoolean(a,b,c);
+        BooleanAndStatic.printBoolean(a, b, c);
 
         System.out.println(BooleanAndStatic.var);
-        BooleanAndStatic.var = 20;
+        BooleanAndStatic.var = 20;*/
 
         /*
         BooleanAndStatic var1 = new BooleanAndStatic();
@@ -60,5 +60,9 @@ public class TestClass {
         System.out.println("var3 = " + var3.var);
         */
 
+
+        //Exercise #4
+        SecondHighestAndLowest price = new SecondHighestAndLowest();
+        price.comparePrice(5.1, 1.2, 2.2, 3.2, 4.2);
     }
 }
