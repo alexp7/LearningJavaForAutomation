@@ -5,11 +5,11 @@ public class SecondHighestAndSecondLowest {
     public void comparePrice () {
 
         int price1, price2, price3, price4, price5;
-        price1 = 0;
+        price1 = 12;
         price2 = 8;
         price3 = 90;
         price4 = 100;
-        price5 = 5;
+        price5 = 9;
 
         int low = price1;
         int high = price1;
