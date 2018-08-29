@@ -61,8 +61,12 @@ public class TestClass {
         */
 
 
-        //Exercise #4
+        /*Exercise #4
         SecondHighestAndLowest price = new SecondHighestAndLowest();
-        price.comparePrice(5.1, 1.2, 2.2, 3.2, 4.2);
+        price.comparePrice(5.1, 1.2, 2.2, 3.2, 4.2);*/
+
+        //Exercise #5
+        FirstAndLastCharInString.firstAndLastChar();
+
     }
 }

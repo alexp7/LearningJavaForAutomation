@@ -1,5 +1,9 @@
 package mypackage;
 
+/*
+The solution of exercise 4
+*/
+
 public class SecondHighestAndSecondLowest {
 
     public void comparePrice () {
