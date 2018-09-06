@@ -65,8 +65,11 @@ public class TestClass {
         SecondHighestAndLowest price = new SecondHighestAndLowest();
         price.comparePrice(5.1, 1.2, 2.2, 3.2, 4.2);*/
 
-        //Exercise #5
+        /*Exercise #5
         FirstAndLastCharInString.firstAndLastChar();
+        */
 
+        //Exercise #5
+        IfElseStatement.highestNumber();
     }
 }
