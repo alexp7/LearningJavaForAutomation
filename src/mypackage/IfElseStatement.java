@@ -13,14 +13,13 @@ public class IfElseStatement {
         c = 999;
 
         if (a != b && a != c && b != c) {
-
-            if (a > b && a > c) {
+            if (a > b && a > c)
                 highestResult = a;
-            } else if (a > b && a < c) {
-                highestResult = c;
-            } else {
+             else if (b > a && b > c)
                 highestResult = b;
-            }
+             else
+                highestResult = c;
+
         } else if (a == b) {
             if (a > c)
                 highestResult = a;
@@ -31,13 +30,11 @@ public class IfElseStatement {
                 highestResult = a;
             else
                 highestResult = b;
-        } else if (b == c) {
+        } else {
             if (b > a)
                 highestResult = b;
             else
                 highestResult = a;
-        } else {
-            highestResult = a;
         }
 
         System.out.println("The highest number is: " + highestResult);
