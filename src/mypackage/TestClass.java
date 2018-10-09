@@ -69,7 +69,11 @@ public class TestClass {
         FirstAndLastCharInString.firstAndLastChar();
         */
 
-        //Exercise #5
+        /*Exercise #5
         IfElseStatement.highestNumber();
+        */
+
+        //Exercise #6
+        SwitchStatement.divisibleByTen();
     }
 }

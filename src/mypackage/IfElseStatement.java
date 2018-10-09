@@ -15,9 +15,9 @@ public class IfElseStatement {
         if (a != b && a != c && b != c) {
             if (a > b && a > c)
                 highestResult = a;
-             else if (b > a && b > c)
+            else if (b > a && b > c)
                 highestResult = b;
-             else
+            else
                 highestResult = c;
 
         } else if (a == b) {
