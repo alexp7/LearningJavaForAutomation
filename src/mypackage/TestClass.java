@@ -73,7 +73,11 @@ public class TestClass {
         IfElseStatement.highestNumber();
         */
 
-        //Exercise #6
+        /*Exercise #6
         SwitchStatement.divisibleByTen();
+        */
+
+        //Exercise #7
+        SimpleCalculator.calculator();
     }
 }
